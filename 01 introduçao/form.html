@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css"
+    <title>Formulário de contato</title>
+</head>
+<body>
+    <form action ="contato.php" method = "post">
+        <fieldset>
+
+         <legend> Contato </legend>
+        <div>
+
+            <label>E-mail:
+                <input type ="text" name ="email" placeholder ="Digite seu email"
+
+            </label>
+        </div>
+        <div>
+            <label>Assunto:
+                <select name="Assunto">
+                  
+                    <option>Compras</option>
+                    <option>Sugestões</option>
+                </select>
+
+            </label>
+        </div>
+        <div>
+            <label>Mensagem:
+                <textarea name="Mensagem" cols="20" rows="5"></textarea>
+
+            </label>
+        </div>
+        <input type ="reset" value="limpar"> 
+         </input>
+
+         <input type ="submit" value="enviar"> 
+        </input>
+        </fieldset>
+
+           
+</form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <label>
+        <form  action="cadastro.php" method="post">Nome:
+    </label>
+
+        <input type="text" name="nome">
+      <label>
+      
+      <label>Sobrenome:
+        <input type="text" sobrenome ="sobrenome">
+      </label>
+        <br></br>
+       <label>Senha:
+        <input type ="password" name ="senha">
+        <br></br>
+       </label>
+      <label>
+        <input type= "radio" name ="tipo" value ="PF" >Pessoa jurídica
+      </label>
+
+      <label>
+        <input type= "radio" name ="tipo" value ="PF" >Pessoa física
+      </label>
+
+      <label>
+        <br></br>  
+        <input type ="checkbox" name="CNH"> Possui CNH
+      </label>
+
+      <label>
+
+        <input type ="checkbox" name="Passaporte"> Possui passaporte
+      </label>
+      <br></br>  
+      <label>
+        <input type = "file"   name ="foto" accept="image/**">
+      </label>
+         <br></br>
+      <label> Campo que fica oculto
+        <input type="hidden" name="codigo" value="CD_1234">
+
+      </label>
+
+    
+        <input type="reset" value="limpar">
+        <input type ="submit" >
+             
+        <textarea name="obs"  cols="0" rows="10" </textarea>
+       <br></br>
+
+
+
+        <select name="carro">
+         <option value="1">Opala</option>
+         <option value="2">Maverik</option>
+         <option value="3">Landau</option>
+
+        </select>
+
+        <select name="carro" multiple ="multiple">
+            <option value="1">Opala</option>
+            <option value="2">Maverik</option>
+            <option value="3">Landau</option>
+   
+           </select>
+       </form>
+</body>
+</html>
